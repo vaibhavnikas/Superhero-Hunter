@@ -1,0 +1,56 @@
+/* Styling for favHeroes.html */
+
+body{
+    background-color: #c7eef5;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color: #14213d;
+}
+
+a{
+    margin-left: 49vw;
+    color: #14213d;
+    padding: 4px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid #14213d;
+    font-size: 2rem;
+    transition: all 1s;
+}
+
+a:hover{
+    background-color: red;
+}
+
+#container{
+    border: 2px solid black;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#container>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    font-size: 1.4rem;
+}
+
+#container>div img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+#container>div span{
+    margin: 10px;
+}
+
+#container>div button{
+    margin: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+}

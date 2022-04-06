@@ -1,0 +1,110 @@
+/* Styling for index.html */
+
+body{
+    background: url('../Images/SuprerHeroes.jpeg') no-repeat center top/cover;
+}
+
+#main-header{
+    margin: auto;
+    text-align: center;
+    width: 30vw;
+    font-size: 4rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #b300fa;
+    border-radius: 10px;
+    color: #022448;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#search-box{
+    margin: auto;
+    margin-top: 10vh;
+    width: 50vw;
+}
+
+#search-bar{
+    border: 1px solid #f4f4f4;
+    border-radius: 5px;
+    width: 93.5%;
+    height: 5vh;
+    font-size: 1.5rem;
+    padding: 0px 30px;
+}
+
+#search-bar:focus{
+    outline:1px solid rgb(10, 119, 221);
+}
+
+#results{
+    margin: auto;
+    margin-top: 1px;
+    border-radius: 5px;
+    background-color: white;
+    height: 60vh;
+    overflow: scroll;
+}
+
+#results{
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#results::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+#results>div{
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+    margin: 1px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#results>div span{
+    position: relative;
+    bottom: 40px;
+    font-size: 1.3rem;
+}
+
+#results>div img{
+    margin-left: 250px;
+    height: 90px;
+}
+
+.fa.fa-heart{
+    color: #B8B8B8;
+    font-size: 2rem;
+    position: relative;
+    top: -40px;
+    left: 250px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#favHeroes{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.4rem;
+    border-radius: 10px;
+    border: 1px solid #022448;
+    padding: 4px 20px;
+    color: #022448;
+    background-color: lightgreen;
+    transition: 1s all;
+}
+
+#favHeroes:hover{
+    background-color: yellowgreen;
+    color: #022448;
+}
+
+.hidden{
+    display: none;
+}
+
+#fav{
+    color: red;
+}
+

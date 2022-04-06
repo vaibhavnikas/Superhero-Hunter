@@ -1,0 +1,53 @@
+/* Styling for heroDetails.html */
+
+body{
+    background-color: #c7eef5;
+    color: white;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 95vh;
+}
+
+a{
+    color: #14213d;
+    width: 10vw;
+    height: 5vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid #14213d;
+    font-size: 2rem;
+    transition: all 1s;
+}
+
+a:hover{
+    color: white;
+    background-color: #e63946;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    color: black;
+}
+
+.stats{
+    height: 50px;
+    width: 20vw;
+    background-color: #14213d;
+    border-radius: 10px;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
